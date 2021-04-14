@@ -1,6 +1,6 @@
 {
   "name": "cep-packager",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "Create native macOS and Windows installers for your CEP",
   "main": "lib/index.js",
   "dependencies": {
@@ -8,7 +8,7 @@
     "mkdirp": "^1.0.3",
     "rimraf": "^3.0.2",
     "shell-quote": "^1.7.2",
-    "signcode": "^1.0.0",
+    "signcode": "github:kevinsawicki/signcode#pull/13/head",
     "zxp-sign-cmd": "^1.0.0"
   },
   "devDependencies": {
